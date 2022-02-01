@@ -15,15 +15,13 @@ public class TC_LoginDDT_002 extends BaseClass {
 	@Test(dataProvider = "LoginData")
 	public void LoginDDT(String user, String pwd) throws InterruptedException {
 
-		
-		
 		LoginPage lp = new LoginPage(driver);
 		lp.setUsername(username);
 		logger.info("User Name Prvided");
-		
+
 		lp.setPassword(pwd);
 		logger.info("Password Provided");
-		
+
 		lp.clickSubmit();
 		Thread.sleep(3000);
 
@@ -38,7 +36,7 @@ public class TC_LoginDDT_002 extends BaseClass {
 			logger.info("Login Passed");
 			lp.clicklogout();
 			Thread.sleep(3000);
-			driver.switchTo().alert().accept();
+			driver.switchTo().alert().accept();// close logout alert
 			driver.switchTo().defaultContent();
 		}
 
@@ -55,9 +53,9 @@ public class TC_LoginDDT_002 extends BaseClass {
 
 	}
 
-	@DataProvider(name = "loginData")
+	@DataProvider(name = "LoginData")
 	String[][] getData() throws IOException {
-		String path = System.getProperty("user.dir ")+"/src/test/java/com/inetbanking/testData/LoginData.xlsx";
+		String path = System.getProperty("user.dir") + "/src/test/java/com/inetbanking/testData/LoginData.xlsx";
 
 		int rownum = XLUtils.getRowCount(path, "Sheet1");
 		int colcount = XLUtils.getCellCount(path, "Sheet1", 1);
@@ -66,8 +64,9 @@ public class TC_LoginDDT_002 extends BaseClass {
 
 		for (int i = 1; i <= rownum; i++) {
 			for (int j = 0; j < colcount; j++) {
-				logindata[i - 1][j] = XLUtils.getCellData(path, "sheet1", i, j);
+				logindata[i - 1][j] = XLUtils.getCellData(path, "sheet1", i, j);// 1,0
 			}
+
 		}
 		return logindata;
 

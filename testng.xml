@@ -7,7 +7,7 @@
 	<test name="LoginPageChrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.inetbanking.testCases.TC_LoginTest_001" />
+			<!-- <class name="com.inetbanking.testCases.TC_LoginTest_001" /> -->
 			<class name="com.inetbanking.testCases.TC_LoginDDT_002" />
 		</classes>
 	</test>

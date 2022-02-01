@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>LoginPageChrome</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Feb 01 07:16:00 IST 2022</td>
+<td>Started on:</td><td>Tue Feb 01 13:16:27 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>18 seconds (18622 ms)</td>
+<tr><td>Total time:</td><td>56 seconds (56178 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,23 +75,30 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.inetbanking.testCases.TC_LoginDDT_002.LoginDDT()'><b>LoginDDT</b><br>Test class: com.inetbanking.testCases.TC_LoginDDT_002</td>
-<td><div><pre>org.testng.TestNGException: 
-Method public void com.inetbanking.testCases.TC_LoginDDT_002.LoginDDT(java.lang.String,java.lang.String) throws java.lang.InterruptedException requires a @DataProvider named : LoginData
+<td title='com.inetbanking.testCases.TC_LoginDDT_002.LoginDDT()'><b>LoginDDT</b><br>Test class: com.inetbanking.testCases.TC_LoginDDT_002<br>Parameters: mngr112909, tytUreg</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.inetbanking.testCases.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:31)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
-... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace17945756", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace17945756'><pre>org.testng.TestNGException: 
-Method public void com.inetbanking.testCases.TC_LoginDDT_002.LoginDDT(java.lang.String,java.lang.String) throws java.lang.InterruptedException requires a @DataProvider named : LoginData
-	at org.testng.internal.Parameters.findDataProvider(Parameters.java:516)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:739)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:704)
-	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:70)
-	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:49)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:904)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace102660525", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace102660525'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.inetbanking.testCases.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -107,8 +114,134 @@ Method public void com.inetbanking.testCases.TC_LoginDDT_002.LoginDDT(java.lang.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 </pre></div></td>
-<td>0</td>
-<td>com.inetbanking.testCases.TC_LoginDDT_002@49e53c76</td></tr>
+<td>4</td>
+<td>com.inetbanking.testCases.TC_LoginDDT_002@31304f14</td></tr>
+<tr>
+<td title='com.inetbanking.testCases.TC_LoginDDT_002.LoginDDT()'><b>LoginDDT</b><br>Test class: com.inetbanking.testCases.TC_LoginDDT_002<br>Parameters: mngr164225, jahetAp</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.inetbanking.testCases.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1031420032", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1031420032'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.inetbanking.testCases.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+</pre></div></td>
+<td>5</td>
+<td>com.inetbanking.testCases.TC_LoginDDT_002@31304f14</td></tr>
+<tr>
+<td title='com.inetbanking.testCases.TC_LoginDDT_002.LoginDDT()'><b>LoginDDT</b><br>Test class: com.inetbanking.testCases.TC_LoginDDT_002<br>Parameters: mngr83460, qAbUzyj</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.inetbanking.testCases.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace341810833", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace341810833'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.inetbanking.testCases.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+</pre></div></td>
+<td>5</td>
+<td>com.inetbanking.testCases.TC_LoginDDT_002@31304f14</td></tr>
+<tr>
+<td title='com.inetbanking.testCases.TC_LoginDDT_002.LoginDDT()'><b>LoginDDT</b><br>Test class: com.inetbanking.testCases.TC_LoginDDT_002<br>Parameters: mngr137319, bAdYvyb</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.inetbanking.testCases.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace741039013", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace741039013'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.inetbanking.testCases.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+</pre></div></td>
+<td>4</td>
+<td>com.inetbanking.testCases.TC_LoginDDT_002@31304f14</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -118,10 +251,10 @@ Method public void com.inetbanking.testCases.TC_LoginDDT_002.LoginDDT(java.lang.
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.inetbanking.testCases.TC_LoginTest_001.loginTest()'><b>loginTest</b><br>Test class: com.inetbanking.testCases.TC_LoginTest_001</td>
+<td title='com.inetbanking.testCases.TC_LoginDDT_002.LoginDDT()'><b>LoginDDT</b><br>Test class: com.inetbanking.testCases.TC_LoginDDT_002<br>Parameters: mngr383240, abAgabE</td>
 <td></td>
-<td>1</td>
-<td>com.inetbanking.testCases.TC_LoginTest_001@293a5bf6</td></tr>
+<td>25</td>
+<td>com.inetbanking.testCases.TC_LoginDDT_002@31304f14</td></tr>
 </table><p>
 </body>
 </html>

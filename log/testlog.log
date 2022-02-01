@@ -1,79 +1,11 @@
-2022-01-29 21:13:50,054 - ebanking -INFO - Opened URL
-2022-01-29 21:13:50,210 - ebanking -INFO - Entered username
-2022-01-29 21:13:50,276 - ebanking -INFO - Entered password
-2022-01-29 21:13:52,051 - ebanking -INFO - Submitted
-2022-01-29 21:13:52,062 - ebanking -INFO - Testcase passed
-2022-01-30 09:49:46,155 - ebanking -INFO - Opened URL
-2022-01-30 09:49:46,274 - ebanking -INFO - Entered username
-2022-01-30 09:49:46,345 - ebanking -INFO - Entered password
-2022-01-30 09:49:48,021 - ebanking -INFO - Submitted
-2022-01-30 09:49:48,032 - ebanking -INFO - Testcase passed
-2022-01-30 13:52:13,797 - ebanking -INFO - Opened URL
-2022-01-30 13:53:22,487 - ebanking -INFO - Opened URL
-2022-01-30 13:55:16,136 - ebanking -INFO - Opened URL
-2022-01-30 14:10:05,373 - ebanking -INFO - Opened URL
-2022-01-30 14:17:20,888 - ebanking -INFO - Opened URL
-2022-01-30 14:33:15,548 - ebanking -INFO - Opened URL
-2022-01-30 14:37:40,898 - ebanking -INFO - Opened URL
-2022-01-30 14:47:45,389 - ebanking -INFO - Opened URL
-2022-01-30 14:47:45,587 - ebanking -INFO - Entered username
-2022-01-30 14:47:45,763 - ebanking -INFO - Entered password
-2022-01-30 14:47:47,276 - ebanking -INFO - Submitted
-2022-01-30 14:47:47,286 - ebanking -INFO - Testcase passed
-2022-01-30 16:11:28,590 - ebanking -INFO - Opened URL
-2022-01-30 16:11:28,765 - ebanking -INFO - Entered username
-2022-01-30 16:11:28,853 - ebanking -INFO - Entered password
-2022-01-30 16:11:31,198 - ebanking -INFO - Submitted
-2022-01-30 16:11:31,207 - ebanking -INFO - Testcase passed
-2022-01-30 16:22:45,608 - ebanking -INFO - Opened URL
-2022-01-30 16:22:45,763 - ebanking -INFO - Entered username
-2022-01-30 16:22:45,838 - ebanking -INFO - Entered password
-2022-01-30 16:22:48,183 - ebanking -INFO - Submitted
-2022-01-30 16:22:48,205 - ebanking -INFO - Testcase passed
-2022-01-30 16:30:25,147 - ebanking -INFO - Opened URL
-2022-01-30 16:30:25,376 - ebanking -INFO - Entered username
-2022-01-30 16:30:25,528 - ebanking -INFO - Entered password
-2022-01-30 16:30:26,137 - ebanking -INFO - Submitted
-2022-01-30 16:30:26,587 - ebanking -INFO - Testcase passed
-2022-01-30 21:59:23,878 - ebanking -INFO - Opened URL
-2022-01-30 21:59:24,042 - ebanking -INFO - Entered username
-2022-01-30 21:59:24,179 - ebanking -INFO - Entered password
-2022-01-30 21:59:25,768 - ebanking -INFO - Submitted
-2022-01-30 21:59:25,778 - ebanking -INFO - Testcase passed
-2022-01-30 22:08:20,619 - ebanking -INFO - Opened URL
-2022-01-30 22:08:20,765 - ebanking -INFO - Entered username
-2022-01-30 22:08:20,863 - ebanking -INFO - Entered password
-2022-01-30 22:08:22,386 - ebanking -INFO - Submitted
-2022-01-30 22:08:22,395 - ebanking -INFO - Testcase passed
-2022-01-30 22:15:23,577 - ebanking -INFO - Opened URL
-2022-01-30 22:15:24,041 - ebanking -INFO - Opened URL
-2022-01-30 22:15:24,538 - ebanking -INFO - Entered username
-2022-01-30 22:15:24,553 - ebanking -INFO - Entered username
-2022-01-30 22:15:24,590 - ebanking -INFO - Entered password
-2022-01-30 22:15:24,637 - ebanking -INFO - Entered password
-2022-01-30 22:15:25,456 - ebanking -INFO - Opened URL
-2022-01-30 22:15:25,873 - ebanking -INFO - Submitted
-2022-01-31 12:34:04,874 - ebanking -INFO - Opened URL
-2022-01-31 12:34:05,933 - ebanking -INFO - Opened URL
-2022-01-31 12:34:10,580 - ebanking -INFO - Opened URL
-2022-01-31 12:34:10,730 - ebanking -INFO - Entered username
-2022-01-31 12:34:10,744 - ebanking -INFO - Entered username
-2022-01-31 12:34:10,755 - ebanking -INFO - Entered username
-2022-01-31 12:34:10,791 - ebanking -INFO - Entered password
-2022-01-31 12:34:10,804 - ebanking -INFO - Entered password
-2022-01-31 12:34:10,823 - ebanking -INFO - Entered password
-2022-01-31 12:34:11,981 - ebanking -INFO - Submitted
-2022-01-31 12:35:51,402 - ebanking -INFO - Opened URL
-2022-01-31 12:35:51,522 - ebanking -INFO - Entered username
-2022-01-31 12:35:51,589 - ebanking -INFO - Entered password
-2022-01-31 12:36:01,252 - ebanking -INFO - Submitted
-2022-01-31 19:37:06,115 - ebanking -INFO - Opened URL
-2022-01-31 19:37:06,270 - ebanking -INFO - Entered username
-2022-01-31 19:37:06,338 - ebanking -INFO - Entered password
-2022-01-31 19:37:07,426 - ebanking -INFO - Submitted
-2022-01-31 19:37:07,437 - ebanking -INFO - Testcase passed
-2022-02-01 07:16:11,143 - ebanking -INFO - Opened URL
-2022-02-01 07:16:11,356 - ebanking -INFO - Entered username
-2022-02-01 07:16:11,524 - ebanking -INFO - Entered password
-2022-02-01 07:16:13,023 - ebanking -INFO - Submitted
-2022-02-01 07:16:13,063 - ebanking -INFO - 001_Testcase passed
+2022-02-01 13:16:44,476 - ebanking -INFO - User Name Prvided
+2022-02-01 13:16:44,546 - ebanking -INFO - Password Provided
+2022-02-01 13:16:56,888 - ebanking -INFO - Login Passed
+2022-02-01 13:17:03,640 - ebanking -INFO - User Name Prvided
+2022-02-01 13:17:03,788 - ebanking -INFO - Password Provided
+2022-02-01 13:17:09,278 - ebanking -INFO - User Name Prvided
+2022-02-01 13:17:09,497 - ebanking -INFO - Password Provided
+2022-02-01 13:17:14,024 - ebanking -INFO - User Name Prvided
+2022-02-01 13:17:14,208 - ebanking -INFO - Password Provided
+2022-02-01 13:17:19,278 - ebanking -INFO - User Name Prvided
+2022-02-01 13:17:19,444 - ebanking -INFO - Password Provided

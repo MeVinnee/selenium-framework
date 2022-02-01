@@ -18,15 +18,15 @@ public class LoginPage {
 	@CacheLookup
 	WebElement txtUsername;
 
-	@FindBy(name = "password")
+	@FindBy(name="password")
 	@CacheLookup
 	WebElement txtPassword;
 
-	@FindBy(name = "btnLogin")
+	@FindBy(name="btnLogin")
 	@CacheLookup
 	WebElement btnLogin;
 	
-	@FindBy(xpath = "//html/body/div[3]/div/ul/li[15]/a")
+	@FindBy(xpath="//html/body/div[3]/div/ul/li[15]/a")
 	@CacheLookup
 	WebElement lnkLogout;
 	

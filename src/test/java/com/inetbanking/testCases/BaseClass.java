@@ -21,7 +21,7 @@ public class BaseClass {
 
 	ReadConfig rc = new ReadConfig();
 
-	public String baseURL = rc.getapplicationURL();
+	public String baseURL = rc.getApplicationURL();
 	public String username = rc.getUsername();
 	public String password = rc.getPassword();
 	public static WebDriver driver;
