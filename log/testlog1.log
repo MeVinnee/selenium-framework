@@ -103,3 +103,14 @@
 2022-02-01 13:17:14,208 [TestNG-tests-1] INFO ebanking - Password Provided
 2022-02-01 13:17:19,278 [TestNG-tests-1] INFO ebanking - User Name Prvided
 2022-02-01 13:17:19,444 [TestNG-tests-1] INFO ebanking - Password Provided
+2022-02-01 22:51:31,172 [TestNG-tests-1] INFO ebanking - Entered Customer Name
+2022-02-01 22:51:32,035 [TestNG-tests-1] INFO ebanking - Select Customer Gender
+2022-02-01 22:51:32,201 [TestNG-tests-1] INFO ebanking - Entered Customer DOB
+2022-02-01 22:51:32,291 [TestNG-tests-1] INFO ebanking - Entered Customer Add
+2022-02-01 22:51:32,373 [TestNG-tests-1] INFO ebanking - Entered Customer City
+2022-02-01 22:51:32,461 [TestNG-tests-1] INFO ebanking - Entered Customer State
+2022-02-01 22:51:32,505 [TestNG-tests-1] INFO ebanking - Entered Customer Pin
+2022-02-01 22:51:32,583 [TestNG-tests-1] INFO ebanking - Entered Customer MobNo
+2022-02-01 22:51:32,668 [TestNG-tests-1] INFO ebanking - Entered Customer Email
+2022-02-01 22:51:32,726 [TestNG-tests-1] INFO ebanking - Entered Customer Password
+2022-02-01 22:51:32,774 [TestNG-tests-1] INFO ebanking - Submitted Form

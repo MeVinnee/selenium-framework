@@ -16,7 +16,7 @@ public class ReadConfig {
 			pro = new Properties();
 			pro.load(fis);
 		} catch (Exception e) {
-			System.out.println("Exception is "+ e.getMessage() );
+			System.out.println("Exception is "+ e.getMessage());
 		}
 	}
 	
@@ -45,6 +45,4 @@ public class ReadConfig {
 		return edgePath;
 	}
 	
-	
-
 }
