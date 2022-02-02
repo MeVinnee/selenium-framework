@@ -114,3 +114,23 @@
 2022-02-01 22:51:32,668 [TestNG-tests-1] INFO ebanking - Entered Customer Email
 2022-02-01 22:51:32,726 [TestNG-tests-1] INFO ebanking - Entered Customer Password
 2022-02-01 22:51:32,774 [TestNG-tests-1] INFO ebanking - Submitted Form
+2022-02-02 17:57:03,256 [TestNG-tests-1] INFO ebanking - Opened URL
+2022-02-02 17:57:03,386 [TestNG-tests-1] INFO ebanking - Entered username
+2022-02-02 17:57:03,479 [TestNG-tests-1] INFO ebanking - Entered password
+2022-02-02 17:57:04,723 [TestNG-tests-1] INFO ebanking - Submitted
+2022-02-02 17:57:04,743 [TestNG-tests-1] INFO ebanking - 001_Testcase passed
+2022-02-02 18:13:39,929 [TestNG-tests-1] INFO ebanking - Opened URL
+2022-02-02 18:13:40,032 [TestNG-tests-1] INFO ebanking - Entered username
+2022-02-02 18:13:40,122 [TestNG-tests-1] INFO ebanking - Entered password
+2022-02-02 18:13:41,305 [TestNG-tests-1] INFO ebanking - Submitted
+2022-02-02 18:13:41,319 [TestNG-tests-1] INFO ebanking - 001_Testcase passed
+2022-02-02 21:45:43,986 [TestNG-tests-1] INFO ebanking - Opened URL
+2022-02-02 21:45:44,850 [TestNG-tests-1] INFO ebanking - Entered username
+2022-02-02 21:45:45,036 [TestNG-tests-1] INFO ebanking - Entered password
+2022-02-02 21:45:47,348 [TestNG-tests-1] INFO ebanking - Submitted
+2022-02-02 21:45:47,455 [TestNG-tests-1] INFO ebanking - 001_Testcase passed
+2022-02-02 21:46:39,919 [TestNG-tests-1] INFO ebanking - Opened URL
+2022-02-02 21:46:40,083 [TestNG-tests-1] INFO ebanking - Entered username
+2022-02-02 21:46:40,212 [TestNG-tests-1] INFO ebanking - Entered password
+2022-02-02 21:46:41,588 [TestNG-tests-1] INFO ebanking - Submitted
+2022-02-02 21:46:41,604 [TestNG-tests-1] INFO ebanking - 001_Testcase passed
