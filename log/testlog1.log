@@ -134,3 +134,13 @@
 2022-02-02 21:46:40,212 [TestNG-tests-1] INFO ebanking - Entered password
 2022-02-02 21:46:41,588 [TestNG-tests-1] INFO ebanking - Submitted
 2022-02-02 21:46:41,604 [TestNG-tests-1] INFO ebanking - 001_Testcase passed
+2022-02-03 09:47:29,477 [TestNG-tests-1] INFO ebanking - Opened URL
+2022-02-03 09:47:29,594 [TestNG-tests-1] INFO ebanking - Entered username
+2022-02-03 09:47:29,662 [TestNG-tests-1] INFO ebanking - Entered password
+2022-02-03 09:47:30,860 [TestNG-tests-1] INFO ebanking - Submitted
+2022-02-03 09:47:30,870 [TestNG-tests-1] INFO ebanking - 001_Testcase passed
+2022-02-03 10:01:22,675 [TestNG-tests-1] INFO ebanking - Opened URL
+2022-02-03 10:01:22,793 [TestNG-tests-1] INFO ebanking - Entered username
+2022-02-03 10:01:22,907 [TestNG-tests-1] INFO ebanking - Entered password
+2022-02-03 10:01:24,042 [TestNG-tests-1] INFO ebanking - Submitted
+2022-02-03 10:01:24,053 [TestNG-tests-1] INFO ebanking - 001_Testcase passed
