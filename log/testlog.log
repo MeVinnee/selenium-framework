@@ -50,3 +50,44 @@
 2022-02-03 10:01:22,907 - ebanking -INFO - Entered password
 2022-02-03 10:01:24,042 - ebanking -INFO - Submitted
 2022-02-03 10:01:24,053 - ebanking -INFO - 001_Testcase passed
+2022-02-03 14:28:58,570 - ebanking -INFO - Opened URL
+2022-02-03 14:28:58,818 - ebanking -INFO - Entered username
+2022-02-03 14:28:59,050 - ebanking -INFO - Entered password
+2022-02-03 14:29:00,570 - ebanking -INFO - Submitted
+2022-02-03 14:29:00,586 - ebanking -INFO - 001_Testcase passed
+2022-02-03 14:31:02,827 - ebanking -INFO - Opened URL
+2022-02-03 14:31:02,951 - ebanking -INFO - Entered username
+2022-02-03 14:31:03,067 - ebanking -INFO - Entered password
+2022-02-03 14:31:04,414 - ebanking -INFO - Submitted
+2022-02-03 14:31:04,430 - ebanking -INFO - 001_Testcase passed
+2022-02-03 14:31:12,121 - ebanking -INFO - User Name Prvided
+2022-02-03 14:31:12,244 - ebanking -INFO - Password Provided
+2022-02-03 14:31:16,638 - ebanking -INFO - Login Passed
+2022-02-03 14:31:23,557 - ebanking -INFO - User Name Prvided
+2022-02-03 14:31:23,725 - ebanking -INFO - Password Provided
+2022-02-03 14:31:28,842 - ebanking -INFO - User Name Prvided
+2022-02-03 14:31:29,090 - ebanking -INFO - Password Provided
+2022-02-03 14:31:34,704 - ebanking -INFO - User Name Prvided
+2022-02-03 14:31:34,837 - ebanking -INFO - Password Provided
+2022-02-03 14:31:39,556 - ebanking -INFO - User Name Prvided
+2022-02-03 14:31:39,822 - ebanking -INFO - Password Provided
+2022-02-03 14:38:57,821 - ebanking -INFO - Opened URL
+2022-02-03 14:38:57,991 - ebanking -INFO - Entered username
+2022-02-03 14:38:58,115 - ebanking -INFO - Entered password
+2022-02-03 14:38:59,423 - ebanking -INFO - Submitted
+2022-02-03 14:38:59,431 - ebanking -INFO - 001_Testcase passed
+2022-02-03 14:46:14,581 - ebanking -INFO - Opened URL
+2022-02-03 14:46:14,696 - ebanking -INFO - Entered username
+2022-02-03 14:46:14,791 - ebanking -INFO - Entered password
+2022-02-03 14:46:15,979 - ebanking -INFO - Submitted
+2022-02-03 14:46:15,991 - ebanking -INFO - 001_Testcase passed
+2022-02-03 14:46:32,860 - ebanking -INFO - Opened URL
+2022-02-03 14:46:32,991 - ebanking -INFO - Entered username
+2022-02-03 14:46:33,062 - ebanking -INFO - Entered password
+2022-02-03 14:46:34,240 - ebanking -INFO - Submitted
+2022-02-03 14:46:34,251 - ebanking -INFO - 001_Testcase passed
+2022-02-04 15:25:31,771 - ebanking -INFO - Opened URL
+2022-02-04 15:25:31,979 - ebanking -INFO - Entered username
+2022-02-04 15:25:32,286 - ebanking -INFO - Entered password
+2022-02-04 15:25:33,951 - ebanking -INFO - Submitted
+2022-02-04 15:25:33,972 - ebanking -INFO - 001_Testcase passed
