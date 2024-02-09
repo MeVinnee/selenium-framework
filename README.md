@@ -1,2 +1,2 @@
 This is my first git repository
-Auther Vinnee
+Auther - Vinnee
